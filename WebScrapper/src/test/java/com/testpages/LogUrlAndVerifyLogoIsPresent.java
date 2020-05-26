@@ -125,7 +125,7 @@ public class LogUrlAndVerifyLogoIsPresent extends BasePage {
 //		System.out.println(columnDriver);
 //		System.out.println("The number of watches in the Featured list is " + numWatches );
 		featured.getAllFeaturedWatchesList();
-		//driver.findElement(By.xpath("//*[@id='s0-25-9-0-1[0]-0-1']/ul/li/div/div/div/a")).click();
+		driver.findElement(By.xpath("//*[@id='s0-25-9-0-1[0]-0-1']/ul/li/div/div/div/a")).click();
 		Thread.sleep(3000L);
 //		ItemPage iPage = new ItemPage();
 //		iPage.getNumberOfTimesViewedPerHour();
